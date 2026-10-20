@@ -1,4 +1,31 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+/* Цветовые переменные: тёмная тема по умолчанию, системная — в режиме «Авто». */
+:root {
+  color-scheme: dark;
+  --page-bg: #000028;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --accent-soft: #ff0070;
+  --heading-bg: #ff0070;
+  --heading-text: #000028;
+  --button-hover: rgb(255 0 112 / 40%);
+  --cover-image: url("../images/cover-image-dark.png");
+  --decorative-color: #ff0070;
+  --record-color: #ff0070;
+}
+@media (prefers-color-scheme: light) {
+  :root:not(.theme-dark):not(.theme-light) {
+    color-scheme: light;
+    --page-bg: #fff1f7;
+    --text-color: #353430;
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --accent-soft: #353430;
+    --heading-bg: #ff8dcb;
+    --heading-text: #353430;
+    --button-hover: rgb(50 49 45 / 40%);
+    --cover-image: url("../images/cover-image-light.png");
+    --decorative-color: #353430;
+    --record-color: #ff8dcb;
+  }
+}
