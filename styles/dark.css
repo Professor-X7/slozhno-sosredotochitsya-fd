@@ -1,2 +1,15 @@
 /* Принудительная тёмная тема. Селектор сохранён из стартовой заготовки. */
-:root.theme-dark { color-scheme: dark; --page-bg: #000028; --text-color: #f1b2ce; --title-color: #db00ff; --accent-color: #ff0070; --accent-soft: #ff0070; --heading-bg: #ff0070; --heading-text: #000028; --button-hover: rgb(255 0 112 / 40%); --cover-image: url("../images/cover-image-dark.png"); --decorative-color: #ff0070; --record-color: #ff0070; }
+:root.theme-dark {
+  color-scheme: dark;
+  --page-bg: #000028;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --accent-soft: #ff0070;
+  --heading-bg: #ff0070;
+  --heading-text: #000028;
+  --button-hover: rgb(255 0 112 / 40%);
+  --cover-image: url("../images/cover-image-dark.png");
+  --decorative-color: #ff0070;
+  --record-color: #ff0070;
+}
